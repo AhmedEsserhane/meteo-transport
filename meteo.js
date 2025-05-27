@@ -4,7 +4,7 @@ async function chargerConfig() {
 }
 
 async function chargerMeteo(ville) {
-  const apiKey = '3f6c22bd82698c1ff749333c4f6ae614';
+  const apiKey = '59763e13a962ea9e1545fc1347150bc5';
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${ville}&appid=${apiKey}&units=metric&lang=fr`;
 
   const response = await fetch(url);
